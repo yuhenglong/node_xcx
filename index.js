@@ -11,6 +11,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 const Schema = mongoose.Schema;
+// client information
 const UserSchema = new Schema({
         username: {
             type: String,
@@ -33,6 +34,13 @@ const UserSchema = new Schema({
             default: Date.now
         }
     })
+    // 公司架构
+const CompanySchema = new Schema({
+        list: {
+            type: Array,
+            required: true
+        }
+    })
     // 邮件传输
 const transporter = nodemailer.createTransport({
     host: "smtp.qq.com", //qq smtp服务器地址
@@ -53,6 +61,7 @@ const mailOption = {
 }
 
 const User = mongoose.model("users", UserSchema);
+const Company = mongoose.model("companys", CompanySchema);
 // connnect mongodb
 mongoose
     .connect(
@@ -90,12 +99,29 @@ app.post("/xapi/sendEmail", (req, res) => {
             })
         })
     }).catch(err => console.log(err));
-
 })
 
-app.get("/xapi/ceshi", (req, res) => {
-    res.status(200).json({ "msg": "susccess" })
+// create company classification 
+app.post("/xapi/createCompany", (req, res) => {
+    const newCompanySchema = new Company({
+        company: req.body.company
+    });
+    newCompanySchema.save().then(() => {
+        res.status(200).json({
+            state: "success",
+            msg: "分公司架构存储成功！"
+        })
+    })
 })
+
+// 读取 data
+app.get("/xapi/getCompanyData", (req, res) => {
+    // 通过数据模型读取所有的分公司
+    Company.find({}, (err, data) => {
+        res.send(data);
+    })
+})
+
 const port = 3000;
 app.listen(port, () => {
     console.log(`express is running and listening for ${port}`)

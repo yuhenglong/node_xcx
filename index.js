@@ -13,35 +13,62 @@ app.use(bodyParser.json());
 const Schema = mongoose.Schema;
 // client information
 const UserSchema = new Schema({
-        username: {
-            type: String,
-            required: true
-        },
-        phone: {
-            type: String,
-            required: true
-        },
-        adress: {
-            type: String,
-            required: false
-        },
-        message: {
-            type: String,
-            required: false
-        },
-        date: {
-            type: Date,
-            default: Date.now
-        }
-    })
-    // 公司架构
+    username: {
+        type: String,
+        required: true
+    },
+    phone: {
+        type: String,
+        required: true
+    },
+    adress: {
+        type: String,
+        required: false
+    },
+    message: {
+        type: String,
+        required: false
+    },
+    date: {
+        type: Date,
+        default: Date.now
+    }
+});
+// 公司架构
 const CompanySchema = new Schema({
-        list: {
-            type: Array,
-            required: true
-        }
-    })
-    // 邮件传输
+    list: {
+        type: Array,
+        required: true
+    }
+});
+//视频骨架
+const VideoSchema = new Schema({
+    coverimg: {
+        type: String,
+        required: true
+    },
+    description: {
+        type: String,
+        required: true
+    },
+    resourceAdd: {
+        type: String,
+        required: true
+    },
+    title: {
+        type: String,
+        required: true
+    },
+    type: {
+        type: String,
+        required: true
+    },
+    id: {
+        type: String,
+        required: true
+    }
+});
+// 邮件传输
 const transporter = nodemailer.createTransport({
     host: "smtp.qq.com", //qq smtp服务器地址
     secureConnection: false, //是否使用安全连接，对https协议的
@@ -62,6 +89,7 @@ const mailOption = {
 
 const User = mongoose.model("users", UserSchema);
 const Company = mongoose.model("companys", CompanySchema);
+const Video = mongoose.model("video", VideoSchema);
 // connnect mongodb
 mongoose
     .connect(
@@ -99,7 +127,12 @@ app.post("/xapi/sendEmail", (req, res) => {
             })
         })
     }).catch(err => console.log(err));
-})
+});
+app.get('/xapi/getInfo', (req, res) => {
+    User.find({}, (err, data) => {
+        res.send(data);
+    })
+});
 
 // create company classification 
 app.post("/xapi/createCompany", (req, res) => {
@@ -112,15 +145,39 @@ app.post("/xapi/createCompany", (req, res) => {
             msg: "分公司架构存储成功！"
         })
     })
-})
+});
 
 // 读取 data
 app.get("/xapi/getCompanyData", (req, res) => {
-    // 通过数据模型读取所有的分公司
+    // 通过数据骨架读取所有的分公司
     Company.find({}, (err, data) => {
         res.send(data);
     })
-})
+});
+// 插入vedio
+app.post("/xapi/createVideo", (req, res) => {
+    const newVideoSchema = new Video({
+        coverimg: req.body.coverimg,
+        description: req.body.description,
+        resourceAdd: req.body.resourceAdd,
+        title: req.body.title,
+        type: req.body.type,
+        id: req.body.id
+    });
+    newVideoSchema.save().then(() => {
+        res.status(200).json({
+            state: "success",
+            msg: "视频信息存储成功！"
+        })
+    });
+});
+//读取 vedioList
+app.get("/xapi/getVideoList", (req, res) => {
+    // 通过数据骨架读取视频信息
+    Video.find({}, (err, data) => {
+        res.send(data);
+    })
+});
 
 const port = 3000;
 app.listen(port, () => {

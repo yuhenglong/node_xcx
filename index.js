@@ -68,6 +68,18 @@ const VideoSchema = new Schema({
         required: true
     }
 });
+//新闻数据骨架
+const NewsSchema = new Schema({
+    image: { type: String, required: true },
+    title: { type: String, required: true },
+    context: { type: String, required: true },
+    date: { type: String, required: true },
+    year: { type: String, required: true },
+    newsInfo: {
+        type: [String],
+        required: true
+    }
+});
 // 邮件传输
 const transporter = nodemailer.createTransport({
     host: "smtp.qq.com", //qq smtp服务器地址
@@ -90,6 +102,7 @@ const mailOption = {
 const User = mongoose.model("users", UserSchema);
 const Company = mongoose.model("companys", CompanySchema);
 const Video = mongoose.model("video", VideoSchema);
+const News = mongoose.model("news", NewsSchema);
 // connnect mongodb
 mongoose
     .connect(
@@ -134,26 +147,15 @@ app.get('/xapi/getInfo', (req, res) => {
     })
 });
 
-// create company classification 
-app.post("/xapi/createCompany", (req, res) => {
-    const newCompanySchema = new Company({
-        company: req.body.company
-    });
-    newCompanySchema.save().then(() => {
-        res.status(200).json({
-            state: "success",
-            msg: "分公司架构存储成功！"
-        })
-    })
-});
 
-// 读取 data
+// 读取 公司数据
 app.get("/xapi/getCompanyData", (req, res) => {
     // 通过数据骨架读取所有的分公司
     Company.find({}, (err, data) => {
         res.send(data);
     })
 });
+
 // 插入vedio
 app.post("/xapi/createVideo", (req, res) => {
     const newVideoSchema = new Video({
@@ -176,6 +178,53 @@ app.get("/xapi/getVideoList", (req, res) => {
     // 通过数据骨架读取视频信息
     Video.find({}, (err, data) => {
         res.send(data);
+    })
+});
+
+//增加新闻数据
+app.post("/xapi/createNews", (req, res) => {
+    // 字符串转换成数组
+    let newsInfoArr = req.body.newsInfo.split(",");
+    const newsInfoSchema = new News({
+        image: req.body.image,
+        title: req.body.title,
+        context: req.body.context,
+        date: req.body.date,
+        year: req.body.year,
+        newsInfo: newsInfoArr
+    });
+    newsInfoSchema.save().then((err, data) => {
+        res.status(200).json({
+            state: "success",
+            msg: "推文插入数据库成功！"
+        })
+    })
+});
+//查找新闻数据
+app.get("/xapi/getNewsInfo", (req, res) => {
+    News.find({}, (err, data) => {
+        res.send(data);
+    });
+});
+//更新新闻数据
+app.post("/xapi/upDateNewsInfo", (req, res) => {
+    // 字符串转换成数组
+    let newsInfoArr = req.body.newsInfo.split(",");
+    const updateNew = {
+        image: req.body.image,
+        title: req.body.title,
+        context: req.body.context,
+        date: req.body.date,
+        year: req.body.year,
+        newsInfo: newsInfoArr
+    };
+    // 根据数据库ID更新新闻数据
+    News.updateOne({ _id: req.body.id }, { $set: updateNew }, (err, data) => { res.json(data) });
+});
+//删除对应新闻数据(在url后面加参数，不可在key-value那里加参数)
+app.delete("/xapi/delNewsInfo/:news_id", (req, res) => {
+    News.deleteOne({ id: req.body.id }).then((data) => {
+        res.status(200).json({ state: "success", msg: "成功删除对应的新闻数据！" })
     })
 });
 

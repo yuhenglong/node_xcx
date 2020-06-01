@@ -196,13 +196,19 @@ app.post("/xapi/createNews", (req, res) => {
     newsInfoSchema.save().then((err, data) => {
         res.status(200).json({
             state: "success",
-            msg: "推文插入数据库成功！"
+            msg: "增加新闻数据成功！"
         })
     })
 });
-//查找新闻数据
+//查找所有新闻数据
 app.get("/xapi/getNewsInfo", (req, res) => {
     News.find({}, (err, data) => {
+        res.send(data);
+    });
+});
+//查找一条新闻数据
+app.post("/xapi/getOneNewInfo", (req, res) => {
+    News.findOne({ _id: req.body._id }, (err, data) => {
         res.send(data);
     });
 });
@@ -221,11 +227,11 @@ app.post("/xapi/upDateNewsInfo", (req, res) => {
     // 根据数据库ID更新新闻数据
     News.updateOne({ _id: req.body.id }, { $set: updateNew }, (err, data) => { res.json(data) });
 });
-//删除对应新闻数据(在url后面加参数，不可在key-value那里加参数)
-app.delete("/xapi/delNewsInfo/:news_id", (req, res) => {
-    News.deleteOne({ id: req.body.id }).then((data) => {
+//删除对应新闻数据(在postman 的body里面设置key-value)
+app.post("/xapi/delNewsInfo", (req, res) => {
+    News.deleteOne({ _id: req.body.id }).then((data) => {
         res.status(200).json({ state: "success", msg: "成功删除对应的新闻数据！" })
-    })
+    });
 });
 
 const port = 3000;

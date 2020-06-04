@@ -37,7 +37,7 @@ const UserSchema = new Schema({
 // 公司架构
 const CompanySchema = new Schema({
     list: {
-        type: Array,
+        type: [String],
         required: true
     }
 });
@@ -89,7 +89,7 @@ const transporter = nodemailer.createTransport({
         user: "907161303@qq.com", //开启SMTP的邮箱，有用发送邮件
         pass: "hdbegcmbnbnjbfde" //授权码
     }
-})
+});
 
 const mailOption = {
     from: "907161303@qq.com",
@@ -97,7 +97,7 @@ const mailOption = {
     cc: "taoshaoping@yungumedia.com", //抄送
     subject: "微信小程序获取的客户信息", //纯文本
     text: ''
-}
+};
 
 const User = mongoose.model("users", UserSchema);
 const Company = mongoose.model("companys", CompanySchema);
@@ -141,13 +141,26 @@ app.post("/xapi/sendEmail", (req, res) => {
         })
     }).catch(err => console.log(err));
 });
+//读取用户信息
 app.get('/xapi/getInfo', (req, res) => {
     User.find({}, (err, data) => {
         res.send(data);
     })
 });
 
-
+app.post("/xapi/createCompanyData", (req, res) => {
+    // 字符串转换成数组
+    let newCompany = req.body.list.split(",");
+    const newCompanySchema = new Company({
+        list: newCompany
+    });
+    newCompanySchema.save().then((err, data) => {
+        res.status(200).json({
+            state: "success",
+            msg: "公司架构数据插入成功！"
+        })
+    })
+});
 // 读取 公司数据
 app.get("/xapi/getCompanyData", (req, res) => {
     // 通过数据骨架读取所有的分公司

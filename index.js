@@ -3,6 +3,8 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const app = express();
 const nodemailer = require("nodemailer");
+const fs = require("fs");
+const path = require("path");
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -147,7 +149,7 @@ app.get('/xapi/getInfo', (req, res) => {
         res.send(data);
     })
 });
-
+// 创建公司数据
 app.post("/xapi/createCompanyData", (req, res) => {
     // 字符串转换成数组
     let newCompany = req.body.list.split(",");
@@ -246,6 +248,18 @@ app.post("/xapi/delNewsInfo", (req, res) => {
         res.status(200).json({ state: "success", msg: "成功删除对应的新闻数据！" })
     });
 });
+
+//读取data.json文件并返回json数据
+app.get("/xapi/getPlaceInfo",(req,res)=>{
+    const file = path.join(__dirname,"/data.json");
+    fs.readFile(file,"utf-8",(err,data) =>{
+        if(err){
+            res.send("文件读取失败");
+        }else{
+            res.send(data)
+        }
+    })
+})
 
 const port = 3000;
 app.listen(port, () => {

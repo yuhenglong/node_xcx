@@ -1921,5 +1921,1710 @@
           "bgColor": "#ffffff",
           "content": "万富大厦"
         }
-      }]
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 80,
+        "latitude": 30.6739,
+        "longitude": 104.0574,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"青羊区",
+          "info":"西大街1号",
+          "population": "50000",
+          "equip": "7",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"商业综合体",
+          "area":"商场一楼、负一楼、负二楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "合能新城市广场商业"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 81,
+        "latitude": 30.6672,
+        "longitude": 104.06992,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"青羊区",
+          "info":"西玉龙街2号",
+          "population": "40000",
+          "equip": "4",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼、负一楼、负二楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "合能新城市广场写字楼"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 82,
+        "latitude": 30.66101,
+        "longitude": 104.07114,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"青羊区",
+          "info":"顺城大街206号",
+          "population": "40000",
+          "equip": "1",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼负一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "四川国际大厦"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 83,
+        "latitude": 30.66896,
+        "longitude": 104.05594,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"青羊区",
+          "info":"槐树街2号",
+          "population": "40000",
+          "equip": "2",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼、负一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "四川出版大厦（槐树店）"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 84,
+        "latitude": 30.677175,
+        "longitude": 103.959332,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"青羊区",
+          "info":"光华西一路与成飞大道交叉口北50米",
+          "population": "40000",
+          "equip": "1",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "龙湖冠寓青羊新城"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 85,
+        "latitude": 30.669078809,
+        "longitude": 104.064686405,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"青羊区",
+          "info":"青龙街18号",
+          "population": "40000",
+          "equip": "4",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸汇聚鑫",
+          "sort":"写字楼",
+          "area":"写字楼一楼、负一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "罗马国际广场"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 86,
+        "latitude": 30.667496698,
+        "longitude": 104.066792349,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"青羊区",
+          "info":"西玉龙街与人民中路一段交叉路口往东约50米(成都帝盛君豪酒店西侧)",
+          "population": "40000",
+          "equip": "2",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼负一楼、负二楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "浦江国际"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 87,
+        "latitude": 30.65922,
+        "longitude": 104.0579,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"青羊区",
+          "info":"少城路27号",
+          "population": "40000",
+          "equip": "1",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸汇聚鑫",
+          "sort":"写字楼",
+          "area":"写字楼一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "少城大厦二期"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 88,
+        "latitude": 30.67075,
+        "longitude": 104.06063,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"青羊区",
+          "info":"东城根下街28号",
+          "population": "40000",
+          "equip": "2",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸汇聚鑫",
+          "sort":"写字楼",
+          "area":"写字楼一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "国信广场"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 89,
+        "latitude": 30.751182338,
+        "longitude": 103.921535537,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"郫都区",
+          "info":"合作路",
+          "population": "80000",
+          "equip": "19",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸",
+          "sort":"超大型商业综合体",
+          "area":"商业部分一层"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "龙湖时代天街"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 90,
+        "latitude": 30.79873,
+        "longitude": 103.89968,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"郫都区",
+          "info":"杜鹃路46号",
+          "population": "70000",
+          "equip": "4",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸",
+          "sort":"商业综合体",
+          "area":"写字梯一层，商业部分一层"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "重百汉正广场"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 91,
+        "latitude": 30.794016854,
+        "longitude": 103.955347427,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"郫都区",
+          "info":"红光镇现代工业港北片区港通北四路976号",
+          "population": "40000",
+          "equip": "1",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "港东e时代"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 92,
+        "latitude": 30.811120899,
+        "longitude": 103.88725045,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"郫都区",
+          "info":"红光镇现代工业港北片区港通北四路976号",
+          "population": "70000",
+          "equip": "8",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"商业综合体",
+          "area":"商业部分一楼、负一楼、负二楼、负三楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "郫都百伦百货广场"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 93,
+        "latitude": 30.755763809,
+        "longitude": 103.988348405,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"郫都区",
+          "info":"犀浦镇校园东路99号绵世溪地湾",
+          "population": "70000",
+          "equip": "1",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"商业综合体",
+          "area":"商业部分一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "中迪·星月里"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 94,
+        "latitude": 30.793596493,
+        "longitude": 103.961397384,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"郫都区",
+          "info":"金土地巷与广场路北三段交叉路口往东约100米",
+          "population": "40000",
+          "equip": "2",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼、负一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "中铁银杏广场"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 95,
+        "latitude": 30.736544799,
+        "longitude": 103.988376899,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"郫都区",
+          "info":"粮河路369号",
+          "population": "40000",
+          "equip": "4",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼、负一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "天璟荟"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 96,
+        "latitude": 30.811161,
+        "longitude": 103.887758,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"郫都区",
+          "info":"一环路西北段186号",
+          "population": "60000",
+          "equip": "7",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"商业综合体",
+          "area":"商场负一楼、写字楼一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "百伦广场犀浦"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 97,
+        "latitude": 30.745407154,
+        "longitude": 103.978144739,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"郫都区",
+          "info":"犀浦镇银河西街99号",
+          "population": "50000",
+          "equip": "4",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼、负一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "合能橙中心"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 98,
+        "latitude": 30.749366574,
+        "longitude": 103.988026699,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"郫都区",
+          "info":"福梓西街与华都路交叉路口往东北约100米",
+          "population": "80000",
+          "equip": "6",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"商业综合体",
+          "area":"商业部分一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "四季城商业广场"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 99,
+        "latitude":30.75972,
+        "longitude": 103.9716,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"郫都区",
+          "info":"国宁西路88号",
+          "population": "50000",
+          "equip": "4",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼、负一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "万树森林三期"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 100,
+        "latitude":30.758055779,
+        "longitude": 103.976905899,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"郫都区",
+          "info":"犀浦镇双铁路112号双铁广场、石犀里",
+          "population": "80000",
+          "equip": "11",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸汇聚鑫",
+          "sort":"商业综合体",
+          "area":"商场负一楼、负二楼、负三楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "润扬双铁广场"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 101,
+        "latitude":30.683920854,
+        "longitude": 104.028590427,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"蜀通街与蜀汉路交汇处",
+          "population": "80000",
+          "equip": "2",
+          "placeImg": "/image/yungu.png",
+          "specification":"28寸",
+          "sort":"写字楼综合体",
+          "area":"一层、负一层"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "花好月圆广场"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 102,
+        "latitude":30.708032,
+        "longitude": 104.06497,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"五块石商贸大道38号",
+          "population": "80000",
+          "equip": "19",
+          "placeImg": "/image/yungu.png",
+          "specification":"28寸",
+          "sort":"写字楼综合体",
+          "area":"一层、负一层、负二层、负三层"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "中央天地广场"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 103,
+        "latitude": 30.68647276,
+        "longitude": 104.084965592,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"解放路一段20号",
+          "population": "80000",
+          "equip": "6",
+          "placeImg": "/image/yungu.png",
+          "specification":"28寸",
+          "sort":"写字楼综合体",
+          "area":"负一层、负二层"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "瑞升城北橡树林"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 104,
+        "latitude": 30.734107349,
+        "longitude": 104.046564674,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"金丰路106号",
+          "population": "80000",
+          "equip": "4",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"商业综合体",
+          "area":"写字楼一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "量力健康城"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 105,
+        "latitude": 30.71752,
+        "longitude": 103.98624,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"蜀西路52号",
+          "population": "90000",
+          "equip": "20",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"大型商业综合体",
+          "area":"商业部分一楼、负一楼、负三楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "中国西部黄金珠宝中心"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 106,
+        "latitude": 30.679382833,
+        "longitude": 104.086573374,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"一环路北四段108号",
+          "population": "70000",
+          "equip": "18",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"商业综合体",
+          "area":"商业部分一楼、负一楼、负二楼、负三楼；写字楼一楼、负二楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "银海中心"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 107,
+        "latitude": 30.71927,
+        "longitude": 103.98504,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"蜀西路58号",
+          "population": "60000",
+          "equip": "6",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"商业综合体",
+          "area":"写字楼部分一楼、负一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "精城国际"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 108,
+        "latitude": 30.68966,
+        "longitude": 104.05147,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"沙湾东二路1号(金牛政务中心旁)",
+          "population": "90000",
+          "equip": "4",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"甲级写字楼",
+          "area":"写字楼一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "世纪加州"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 109,
+        "latitude": 30.710963248,
+        "longitude": 104.030279124,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"万贯五金机电城25栋",
+          "population": "50000",
+          "equip": "2",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "万贯电子商务大厦"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 110,
+        "latitude": 30.713340799,
+        "longitude": 104.033975899,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"金府路555号",
+          "population": "50000",
+          "equip": "5",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼、负一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "万贯金府银座"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 111,
+        "latitude": 30.678993698,
+        "longitude": 104.056559349,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"西体路1号",
+          "population": "50000",
+          "equip": "1",
+          "placeImg": "/image/yungu.png",
+          "specification":"28寸",
+          "sort":"写字楼",
+          "area":"写字楼一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "中地锦尚大厦"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 112,
+        "latitude": 30.70993,
+        "longitude": 104.04205,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"长青路88号",
+          "population": "50000",
+          "equip": "3",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼、负二楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "金美国际"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 113,
+        "latitude": 30.67948,
+        "longitude": 104.05538,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"马家花园路2号",
+          "population": "50000",
+          "equip": "1",
+          "placeImg": "/image/yungu.png",
+          "specification":"28寸",
+          "sort":"写字楼",
+          "area":"写字楼一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "通锦大厦"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 114,
+        "latitude": 30.685335229,
+        "longitude": 104.040479541,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"营门口路188号",
+          "population": "50000",
+          "equip": "2",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "人和逸景"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 115,
+        "latitude": 30.690522809,
+        "longitude": 104.051591405,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"沙湾路63",
+          "population": "50000",
+          "equip": "1",
+          "placeImg": "/image/yungu.png",
+          "specification":"28寸",
+          "sort":"写字楼",
+          "area":"写字楼一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "网通大厦"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 116,
+        "latitude": 30.682167,
+        "longitude": 104.040588,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"金鱼街18号",
+          "population": "50000",
+          "equip": "2",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "七星财富中心"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 117,
+        "latitude": 30.704183255,
+        "longitude": 104.025277256,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"金府路88号",
+          "population": "50000",
+          "equip": "6",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "万通新都会"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 118,
+        "latitude": 30.676927899,
+        "longitude": 104.05091045,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"花牌坊街1号附12号",
+          "population": "50000",
+          "equip": "2",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼负一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "西大国际"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 119,
+        "latitude": 30.769652,
+        "longitude": 104.09953,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"万石路与天佑路交叉路口往北约50米",
+          "population": "50000",
+          "equip": "1",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "中铁产业园"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 120,
+        "latitude": 30.693571863,
+        "longitude": 104.087738555,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"二环路北三段21号1幢1单元",
+          "population": "50000",
+          "equip": "2",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "紫金乐章"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 121,
+        "latitude": 30.673496799,
+        "longitude": 104.044509899,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"永陵路17号",
+          "population": "60000",
+          "equip": "1",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"商业综合体",
+          "area":"商业部分一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "黄河商业城"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 122,
+        "latitude": 30.68935,
+        "longitude": 104.01855,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"蜀汉路426号附3号",
+          "population": "40000",
+          "equip": "2",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼负二楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "上层建筑"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 123,
+        "latitude": 30.684640854,
+        "longitude": 104.042334427,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"金牛大道营门口路与金鱼街交叉路口南侧(金鱼街72号北侧)",
+          "population": "50000",
+          "equip": "2",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼、负一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "飞大四威大厦"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 124,
+        "latitude": 30.695073006,
+        "longitude": 104.027117758,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"一品天下大街399号茶店子",
+          "population": "50000",
+          "equip": "5",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼、负二楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "飞天西城公馆"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 125,
+        "latitude": 30.681522276,
+        "longitude": 104.081991832,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"一环路北三段100号",
+          "population": "50000",
+          "equip": "8",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼、负二楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "飞天壹号广场"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 126,
+        "latitude": 30.71788795,
+        "longitude": 104.04437927,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"金府路833号",
+          "population": "50000",
+          "equip": "1",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "鸿盛商务大厦"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 127,
+        "latitude": 30.721127824,
+        "longitude": 104.078506638,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"韦家碾1路118号",
+          "population": "50000",
+          "equip": "4",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼、负一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "绿地红星国际广场"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 128,
+        "latitude": 30.688845,
+        "longitude": 104.077932,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"北站东一路18号",
+          "population": "70000",
+          "equip": "6",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"商业综合体",
+          "area":"商场负一楼、负一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "蓝光金荷花"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 129,
+        "latitude": 30.772603,
+        "longitude": 104.096777,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"天龙大道1333号",
+          "population": "70000",
+          "equip": "4",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼、负一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "西部地理信息科技产业园6栋"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 130,
+        "latitude": 30.774041899,
+        "longitude": 104.09714945,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"天龙大道1333号",
+          "population": "70000",
+          "equip": "4",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼、负一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "西部地理信息科技产业园8栋"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 131,
+        "latitude": 30.682465349,
+        "longitude": 104.031658674,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"二环路西三段17号",
+          "population": "50000",
+          "equip": "2",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "彩舍大厦"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 132,
+        "latitude": 30.682898248,
+        "longitude": 104.032256124,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"二环路西三段19号",
+          "population": "50000",
+          "equip": "2",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼、负一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "恒远大厦"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 133,
+        "latitude": 30.673497407,
+        "longitude": 104.03962568,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"一环路西三段31号",
+          "population": "50000",
+          "equip": "2",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼负二楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "嘉园大厦"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 134,
+        "latitude": 30.686486854,
+        "longitude": 104.036341427,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"二环路西三段139号",
+          "population": "50000",
+          "equip": "1",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "金珠湾大厦"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 135,
+        "latitude": 30.674786985,
+        "longitude": 104.04968233,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"三洞桥路12号",
+          "population": "50000",
+          "equip": "1",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "四川出版集团（三洞桥）"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 136,
+        "latitude": 30.682932957,
+        "longitude": 104.043385284,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"金牛大道营门口路与文家巷交叉路口西侧",
+          "population": "50000",
+          "equip": "2",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼负一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "熙城国际"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 137,
+        "latitude": 30.678104349,
+        "longitude": 104.077856674,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"城隍巷80号",
+          "population": "50000",
+          "equip": "2",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼、负一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "城隍商厦"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 138,
+        "latitude": 30.677537248,
+        "longitude": 104.076085124,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"星辉西路9号",
+          "population": "50000",
+          "equip": "1",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "河畔星辉"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 139,
+        "latitude": 30.693727899,
+        "longitude": 104.04977345,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"沙湾路272号",
+          "population": "50000",
+          "equip": "1",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "嘉立大厦"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 140,
+        "latitude": 30.727021349,
+        "longitude": 104.049470674,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"金丰路6号",
+          "population": "50000",
+          "equip": "4",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼、负二楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "量力钢铁交易大厦A座"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 141,
+        "latitude": 30.727043,
+        "longitude": 104.049367,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"金丰路6号",
+          "population": "50000",
+          "equip": "4",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼、负二楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "量力钢铁交易大厦B座"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 142,
+        "latitude": 30.727340899,
+        "longitude": 104.04897045,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"金丰路6号",
+          "population": "50000",
+          "equip": "4",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼、负二楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "量力钢铁交易大厦C座"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 143,
+        "latitude": 30.729561349,
+        "longitude": 104.049790674,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"金丰路6号",
+          "population": "50000",
+          "equip": "3",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼、负一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "量力商务大厦"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 144,
+        "latitude": 30.699086,
+        "longitude": 104.030187,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"花照壁西顺街",
+          "population": "50000",
+          "equip": "8",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼、负一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "龙湖香颂四期"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 145,
+        "latitude": 30.698462899,
+        "longitude": 104.03064545,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"子云路94号",
+          "population": "50000",
+          "equip": "7",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"写字楼",
+          "area":"写字楼一楼、负一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "龙湖紫宸四期（紫宸星座）"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 146,
+        "latitude": 30.693218017,
+        "longitude": 104.045360969,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"二环路北一段10号",
+          "population": "80000",
+          "equip": "4",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸（人脸识别）",
+          "sort":"商业综合体",
+          "area":"商业部分一楼、负一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "沙湾印象汇"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 147,
+        "latitude": 30.692976248,
+        "longitude": 104.042707124,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"二环路北一段141",
+          "population": "50000",
+          "equip": "2",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸汇聚鑫",
+          "sort":"写字楼",
+          "area":"写字楼一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "嘉州华府·美华居"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 148,
+        "latitude": 30.698453,
+        "longitude": 104.03384,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"一品天下大街和金牛大道交汇处",
+          "population": "90000",
+          "equip": "3",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸汇聚鑫",
+          "sort":"大型商业综合体",
+          "area":"写字楼一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "龙湖铂金岛"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 149,
+        "latitude":30.69476,
+        "longitude": 104.048389,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"二环路北一段47号",
+          "population": "50000",
+          "equip": "2",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸汇聚鑫",
+          "sort":"写字楼",
+          "area":"写字楼一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "加州印象"
+        }
+      }, {
+        "iconPath": "/image/location.png",
+        "id": 150,
+        "latitude": 30.675500698,
+        "longitude": 104.085762349,
+        "joinCluster": true,
+        "placeInfo": {
+          "district":"金牛区",
+          "info":"马鞍南路110号",
+          "population": "50000",
+          "equip": "1",
+          "placeImg": "/image/yungu.png",
+          "specification":"31.5寸汇聚鑫",
+          "sort":"写字楼",
+          "area":"写字楼一楼"
+        },
+        "label": {
+          "borderWidth": 1,
+          "padding":"10rpx",
+          "borderColor": "#ffffff",
+          "borderRadius": 3,
+          "bgColor": "#ffffff",
+          "content": "马鞍大厦"
+        }
+      }
+    ]
 }

@@ -1,7 +1,4 @@
-{
-    "code": 0,
-    "msg": "请求成功",
-    "data": [{
+const json = [{
         "iconPath": "/image/locationRed.png",
         "id": 0,
         "latitude": 30.552925,
@@ -5762,5 +5759,7 @@
           "content": "天来国际广场"
         }
       }
-    ]
+]
+module.exports = {
+  CDdata:json
 }

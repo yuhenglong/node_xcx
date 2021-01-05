@@ -171,30 +171,30 @@ app.get("/xapi/getCompanyData", (req, res) => {
     })
 });
 
-// 插入vedio
-app.post("/xapi/createVideo", (req, res) => {
-    const newVideoSchema = new Video({
-        coverimg: req.body.coverimg,
-        description: req.body.description,
-        resourceAdd: req.body.resourceAdd,
-        title: req.body.title,
-        type: req.body.type,
-        id: req.body.id
-    });
-    newVideoSchema.save().then(() => {
-        res.status(200).json({
-            state: "success",
-            msg: "视频信息存储成功！"
-        })
-    });
-});
-//读取 vedioList
-app.get("/xapi/getVideoList", (req, res) => {
-    // 通过数据骨架读取视频信息
-    Video.find({}, (err, data) => {
-        res.send(data);
-    })
-});
+// // 插入vedio
+// app.post("/xapi/createVideo", (req, res) => {
+//     const newVideoSchema = new Video({
+//         coverimg: req.body.coverimg,
+//         description: req.body.description,
+//         resourceAdd: req.body.resourceAdd,
+//         title: req.body.title,
+//         type: req.body.type,
+//         id: req.body.id
+//     });
+//     newVideoSchema.save().then(() => {
+//         res.status(200).json({
+//             state: "success",
+//             msg: "视频信息存储成功！"
+//         })
+//     });
+// });
+// //读取 vedioList
+// app.get("/xapi/getVideoList", (req, res) => {
+//     // 通过数据骨架读取视频信息
+//     Video.find({}, (err, data) => {
+//         res.send(data);
+//     })
+// });
 
 //增加新闻数据
 app.post("/xapi/createNews", (req, res) => {
@@ -252,6 +252,29 @@ app.post("/xapi/delNewsInfo", (req, res) => {
 //读取data.json文件并返回json数据
 app.get("/xapi/getPlaceInfo",(req,res)=>{
     const file = path.join(__dirname,"/data.json");
+    fs.readFile(file,"utf-8",(err,data) =>{
+        if(err){
+            res.send("文件读取失败");
+        }else{
+            res.send(data)
+        }
+    })
+})
+
+// 读取video.json文件并返回json数据
+app.post("/xapi/getVideo",(req,res)=>{
+    const file = path.join(__dirname,"/video.json");
+    fs.readFile(file,"utf-8",(err,data) =>{
+        if(err){
+            res.send("文件读取失败");
+        }else{
+            res.send(data)
+        }
+    })
+})
+// 读取newsData.json文件并返回json数据
+app.get("/xapi/getnewsData",(req,res)=>{
+    const file = path.join(__dirname,"/newsData.json");
     fs.readFile(file,"utf-8",(err,data) =>{
         if(err){
             res.send("文件读取失败");
